@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Rakkas', cursive;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focused {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+}
+
+.button__come-back {
+  text-decoration: none;
+  background-color: #31393b;
+  border: #f1efe8 solid 2px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-family: 'Rakkas', cursive;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #f1efe8;
+  text-align: center;
+}
+
+.button__come-back:hover {
+  box-shadow: 0 8px 10px #778074;
+  color: #fce6ce;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
