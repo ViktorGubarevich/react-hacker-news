@@ -1,0 +1,40 @@
+.item {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  background-color: #fce6ce;
+  text-decoration: none;
+  color: black;
+}
+
+.item:last-of-type {
+  border-bottom: none;
+}
+
+.title {
+  margin: 0;
+  text-align: left;
+  font-size: 1.7rem;
+  color: #39332c;
+}
+
+.item p {
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+
+.information {
+  margin: auto 0px 0px;
+  display: flex;
+  flex-direction: row;
+  color: gray;
+}
+
+.author {
+  letter-spacing: 0.4px;
+  padding: 0 10px;
+}

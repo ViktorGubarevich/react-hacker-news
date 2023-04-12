@@ -1,0 +1,21 @@
+.reload {
+  display: flex;
+  text-decoration: none;
+  background-color: #31393b;
+  border: #f1efe8 solid 2px;
+  border-radius: 5px;
+  margin-left: auto;
+  padding: 10px 40px;
+  font-family: 'Rakkas', cursive;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #f1efe8;
+}
+
+.reload:hover {
+  box-shadow: 0 8px 10px #778074;
+  color: #fce6ce;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
