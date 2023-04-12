@@ -1,50 +1,50 @@
 .article {
-	display: flex;
-	flex-direction: column;
-	background-color: #fce6ce;
-	border-radius: 15px;
-	padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fce6ce;
+  border-radius: 15px;
+  padding: 30px;
   margin: 1rem 0;
-	color: #31393B;
-	width: 100%;
-	box-sizing: border-box;
+  color: #31393b;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .main-information {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 0px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 0px 20px;
 }
 
 .title {
-	margin-top: 40px;
-	font-size: 30px;
+  margin-top: 40px;
+  font-size: 30px;
 }
 
 .date {
-	color: black;
-	margin: 0px;
-	font-size: 20px;
-	line-height: 24px;  
+  color: black;
+  margin: 0px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .link {
-	text-decoration: none;
-	color: #916855;
-	font-size: 18px;
-	line-height: 20px;
-	font-style: italic;
+  text-decoration: none;
+  color: #916855;
+  font-size: 18px;
+  line-height: 20px;
+  font-style: italic;
 }
 
 .link:hover {
-	cursor: pointer;
-	color: #C5963A;
-	transition: .3s ease;
+  cursor: pointer;
+  color: #c5963a;
+  transition: 0.3s ease;
 }
 
 .about {
-	margin: auto 0px 0px;
+  margin: auto 0px 0px;
   display: flex;
   flex-direction: row;
   color: gray;
@@ -56,19 +56,51 @@
 }
 
 .no-comments {
-	color: #31393B;
-	font-size: 18px;
-	line-height: 20px;
+  color: #31393b;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	.article {
-		width: 85%;
-	}
+  .article {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-	.article {
-		width: 70%;
-	}
+  .main-information {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 400px) {  
+  .date {
+    font-size: 15px;
+    line-height: 12px;
+  }
+
+  .title {
+    margin: 10px 0px 0px;
+    font-size: 15px;
+  }
+
+  .link {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .about {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  
+  .author {
+    letter-spacing: 0.4px;
+    padding: 0 10px;
+  }
+  
+  .no-comments {
+    font-size: 10px;
+    line-height: 10px;
+  }
 }

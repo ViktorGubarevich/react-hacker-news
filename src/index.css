@@ -57,14 +57,13 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.button-group {
-		width: 85%;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.button-group {
     flex-direction: column;
-		width: 70%;
 	}
 }
 

@@ -17,3 +17,14 @@
 	font-size: 20px;
 	margin: 0px 0px 14px;
 }
+
+@media screen and (max-width: 400px) {  
+	.comments {
+	  font-size: 12px;
+	  line-height: 12px;
+	}
+  
+	.title {
+	  font-size: 15px;
+	}  
+  }
