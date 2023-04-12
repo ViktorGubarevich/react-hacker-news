@@ -55,22 +55,20 @@
   padding: 0 10px;
 }
 
-.comment {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	color: #C5963A;
-	align-items: center;
-	margin-bottom: 10px;
-}
-
-.comment-counter {
-	margin: 0px 0px 0px 10px;
-	font-size: 24px;
-}
-
 .no-comments {
 	color: #31393B;
 	font-size: 18px;
 	line-height: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.article {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.article {
+		width: 70%;
+	}
 }

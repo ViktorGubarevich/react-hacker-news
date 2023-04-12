@@ -19,20 +19,6 @@
   overflow: hidden;
 }
 
-.first-items_deleted {
-  font-style: italic;
-}
-
-.first-items p:last-of-type {
-  color: inherit;
-  margin-bottom: 0;
-}
-
-.first-items p a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .arrow {
   position: absolute;
   top: 10px;

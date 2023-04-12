@@ -7,13 +7,3 @@
 	background-color: rgba(197, 150, 58, 0.08);
 	overflow: hidden;
 }
-
-.items p:last-of-type {
-	color: inherit;
-	margin-bottom: 0;
-}
-
-.items p a {
-	text-decoration: none;
-	color: inherit;
-}

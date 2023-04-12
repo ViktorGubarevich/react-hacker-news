@@ -19,3 +19,10 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+	.reload {
+    display: block;
+		width: 100%;
+	}
+}

@@ -16,7 +16,7 @@ const CommentsList = ({ kids }: KidsProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchJokesHandler = useCallback(async () => {
+  const fetchFakeNewsHandler = useCallback(async () => {
     setIsLoading(true);
     setError(null);
 
@@ -41,8 +41,8 @@ const CommentsList = ({ kids }: KidsProps) => {
   }, [kids]);
 
   useEffect(() => {
-    fetchJokesHandler();
-  }, [fetchJokesHandler]);
+    fetchFakeNewsHandler();
+  }, [fetchFakeNewsHandler]);
 
   if (error) {
     return <p className="centered focused">{error}</p>;

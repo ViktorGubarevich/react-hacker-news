@@ -48,3 +48,24 @@ body {
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+	.button__come-back {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.button-group {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.button-group {
+    flex-direction: column;
+		width: 70%;
+	}
+}
+
+
